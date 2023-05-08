@@ -1,0 +1,48 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+    position: sticky;
+    table-layout: fixed;
+  }
+    
+    table td, table th {
+      border: 0px solid #ddd;
+     
+      width: 44vw;
+    }
+    
+    table tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+    
+    table tr:hover {background-color: #ddd;}
+    
+    table th {
+      
+      text-align: left;
+      background-color: #229abec2;
+      color: white;
+      position: sticky;
+      top: 0;
+      width: 45%;
+  
+    }
+  
+    .ftable-container {
+      display: flex;
+      position: relative;
+      
+    }
+  
+    
+    .selected {
+      background-color: #e0e0e0;
+    }
+    
+    .ftbody-container {
+      height: 10vh;
+      overflow: auto;
+      
+    }
+    
